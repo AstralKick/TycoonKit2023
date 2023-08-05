@@ -13,7 +13,7 @@ local function Reducer(State: {}, Action: {}): {}
     -->> Type changes based on action here.
 
     if Action.type == "UpdateProfile" then
-        return Action.Profile
+        return Action.profile
     end
     
     return State

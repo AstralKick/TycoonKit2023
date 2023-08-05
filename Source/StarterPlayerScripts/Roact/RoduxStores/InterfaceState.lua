@@ -13,3 +13,5 @@ local function Reducer(State: {}, Action: {}): {}
 end
 
 local Store = Rodux.Store.new(Reducer)
+
+return Store
